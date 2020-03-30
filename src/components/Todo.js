@@ -7,7 +7,7 @@ const Todo = ({ onClick, completed, inprogress, remove, deleted, text, onClickBt
   <div className={deleted ? 'deleted' : ''}>
   <div className={completed ? 'completed' : ''}>
 
-  <div className='task' onClick={onClick}>&#9672;&nbsp;{text}</div>
+  <div className='task' onClick={onClick}>{text}</div>
      
     <button onClick={onClickBtn} className='progress_btn'>Active</button>
     <button onClick={onClickRem} className='remove_btn'>Remove to TRASH</button>

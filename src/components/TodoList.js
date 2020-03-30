@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import Todo from './Todo'
 
 const TodoList = ({ todos, toggleTodo, inProgress, reMove, deLeted }) => (
-  <ul>
+  <ol>
     {todos.map(todo =>
       <Todo
         key={todo.id}
@@ -14,7 +14,7 @@ const TodoList = ({ todos, toggleTodo, inProgress, reMove, deLeted }) => (
         onClickDel={() => deLeted(todo.id)}
       />
     )}
-  </ul>
+  </ol>
 )
 
 TodoList.propTypes = {

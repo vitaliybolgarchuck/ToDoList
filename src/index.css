@@ -38,6 +38,9 @@ button:hover {
   background-color: blue;
 }
 
+
+
+
 .inprogress {
   font-weight: bold;
 }
@@ -49,7 +52,7 @@ button:hover {
 
 .inprogress .task:after {
   content: '';
-  background-image: url('./loader.gif');
+  /* background-image: url('./loader.gif'); */
   width: 20px !important;
   height: 20px !important;
   background-size: contain;
@@ -64,7 +67,7 @@ button:hover {
 #root ul {
   margin-top: 20px;
   margin-bottom: 30px;
-  list-style: none;
+  /* list-style: none; */
   padding-left: 10px;
 }
 
@@ -124,6 +127,8 @@ button.progress_btn:hover {
   background-color: #3a3833;
 }
 
+
+
 .completed .progress_btn {
   display: none;
 }
@@ -142,23 +147,6 @@ button.progress_btn:hover {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .remove .task {
   position: relative;
   padding-right: 29px;
@@ -166,7 +154,7 @@ button.progress_btn:hover {
 
 .remove .task:after {
   content: '';
-  background-image: url('./loader.gif');
+  /* background-image: url('./loader.gif'); */
   width: 20px !important;
   height: 20px !important;
   background-size: contain;
@@ -221,3 +209,4 @@ button.remove_btn:hover {
 .remove .remove_btn:hover:after {
   background-color: #3a3833;
 }
+
